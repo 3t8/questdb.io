@@ -169,7 +169,7 @@ created.
 
 `PARTITION BY` allows for specifying the
 [partitioning strategy](/docs/concept/partitions) for the table. The default
-partitioning strategy is `NONE` and tables can be partitioned by one of the
+partitioning strategy is `DAY` and tables can be partitioned by one of the
 following:
 
 - `YEAR`
