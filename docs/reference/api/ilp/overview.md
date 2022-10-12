@@ -54,7 +54,7 @@ Each ILP message has to end with new line `\n` character.
   automatically recognized and assigned based on the data.
 - The `timestamp` column is automatically created as
   [designated timestamp](/docs/concept/designated-timestamp) with the
-  [partition strategy](/docs/concept/partitions) set to `DAY`. If you would
+  [partition strategy](/docs/concept/partitions) set to `DAY` when the ingestion is done via [ILP](/docs/develop/insert-data#influxdb-line-protocol). If you would
   like to define a different partition strategy, you should
   [CREATE](/docs/reference/sql/create-table) the table beforehand.
 - When the timestamp is empty, QuestDB will use the server timestamp.
